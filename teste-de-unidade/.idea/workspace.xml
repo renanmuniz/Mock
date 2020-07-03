@@ -20,25 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2e76e42-9b36-458c-9d1d-d7e6ff525004" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Lance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Leilao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Pagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/dominio/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/dao/LeilaoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/dao/LeilaoDaoFalso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/Avaliador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/EncerradorDeLeilao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/br/com/caelum/leilao/builder/CriadorDeLeilao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/br/com/caelum/leilao/dominio/LeilaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/br/com/caelum/leilao/servico/AvaliadorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/dao/RepositorioDeLeiloes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/dao/RepositorioDePagamentos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/email/Carteiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/relogio/Relogio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/relogio/RelogioDoSistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/EnviadorDeEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/GeradorDePagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/br/com/caelum/leilao/servico/EncerradorDeLeilaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/br/com/caelum/leilao/servico/GeradorDePagamentoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/teste-de-unidade/br/com/caelum/leilao/infra/dao/LeilaoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/teste-de-unidade/br/com/caelum/leilao/infra/dao/LeilaoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/teste-de-unidade/br/com/caelum/leilao/infra/dao/LeilaoDaoFalso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/teste-de-unidade/br/com/caelum/leilao/infra/dao/LeilaoDaoFalso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/teste-de-unidade/br/com/caelum/leilao/servico/EncerradorDeLeilao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/teste-de-unidade/br/com/caelum/leilao/servico/EncerradorDeLeilao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/dao/LeilaoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/dao/LeilaoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/dao/LeilaoDaoFalso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/infra/dao/LeilaoDaoFalso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/EncerradorDeLeilao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leilao/servico/EncerradorDeLeilao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -59,6 +70,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mocks-cap1/teste-de-unidade/hamcrest-all-1.3.0RC1.jar!/" />
@@ -74,16 +86,8 @@
       <recent name="E:\UniprimeWorkspaceIntelliJ\Mock\teste-de-unidade" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in teste-de-unidade">
-    <configuration name="All in teste-de-unidade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="teste-de-unidade" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AvaliadorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil">
+    <configuration name="EncerradorDeLeilaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teste-de-unidade" />
       <extension name="coverage">
         <pattern>
@@ -92,32 +96,83 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.br.com.caelum.leilao.servico" />
-      <option name="MAIN_CLASS_NAME" value="test.br.com.caelum.leilao.servico.AvaliadorTest" />
+      <option name="MAIN_CLASS_NAME" value="test.br.com.caelum.leilao.servico.EncerradorDeLeilaoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeilaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EncerradorDeLeilaoTest.deveContinuarExecucaoMesmoQuandoDaoFalha" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teste-de-unidade" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.br.com.caelum.leilao.dominio.*" />
+          <option name="PATTERN" value="test.br.com.caelum.leilao.servico.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.br.com.caelum.leilao.dominio" />
-      <option name="MAIN_CLASS_NAME" value="test.br.com.caelum.leilao.dominio.LeilaoTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="test.br.com.caelum.leilao.servico" />
+      <option name="MAIN_CLASS_NAME" value="test.br.com.caelum.leilao.servico.EncerradorDeLeilaoTest" />
+      <option name="METHOD_NAME" value="deveContinuarExecucaoMesmoQuandoDaoFalha" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EncerradorDeLeilaoTest.deveDesistirSeDaoFalhaPraSempre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teste-de-unidade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.br.com.caelum.leilao.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.br.com.caelum.leilao.servico" />
+      <option name="MAIN_CLASS_NAME" value="test.br.com.caelum.leilao.servico.EncerradorDeLeilaoTest" />
+      <option name="METHOD_NAME" value="deveDesistirSeDaoFalhaPraSempre" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teste-de-unidade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.br.com.caelum.leilao.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.br.com.caelum.leilao.servico" />
+      <option name="MAIN_CLASS_NAME" value="test.br.com.caelum.leilao.servico.GeradorDePagamentoTest" />
+      <option name="METHOD_NAME" value="deveEmpurrarParaOProximoDiaUtil" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeradorDePagamentoTest.deveGerarPagamentoParaUmLeilaoEncerrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teste-de-unidade" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.br.com.caelum.leilao.servico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.br.com.caelum.leilao.servico" />
+      <option name="MAIN_CLASS_NAME" value="test.br.com.caelum.leilao.servico.GeradorDePagamentoTest" />
+      <option name="METHOD_NAME" value="deveGerarPagamentoParaUmLeilaoEncerrado" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in teste-de-unidade" />
-        <item itemvalue="JUnit.AvaliadorTest" />
-        <item itemvalue="JUnit.LeilaoTest" />
+        <item itemvalue="JUnit.GeradorDePagamentoTest.deveEmpurrarParaOProximoDiaUtil" />
+        <item itemvalue="JUnit.GeradorDePagamentoTest.deveGerarPagamentoParaUmLeilaoEncerrado" />
+        <item itemvalue="JUnit.EncerradorDeLeilaoTest" />
+        <item itemvalue="JUnit.EncerradorDeLeilaoTest.deveDesistirSeDaoFalhaPraSempre" />
+        <item itemvalue="JUnit.EncerradorDeLeilaoTest.deveContinuarExecucaoMesmoQuandoDaoFalha" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593784844934</updated>
-      <workItem from="1593784851202" duration="573000" />
+      <workItem from="1593784851202" duration="14181000" />
     </task>
     <servers />
   </component>
@@ -157,6 +212,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1366.304.1366.728@0.0.1920.1040" timestamp="1593785422089" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1593815330536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.304.1366.728@0.0.1920.1040" timestamp="1593815330536" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1593815330536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.304.1366.728@0.0.1920.1040" timestamp="1593815330536" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1593815330536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.304.1366.728@0.0.1920.1040" timestamp="1593815330536" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1593815330536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.304.1366.728@0.0.1920.1040" timestamp="1593815330536" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1593785430976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
